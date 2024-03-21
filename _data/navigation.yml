@@ -1,0 +1,13 @@
+# Site navigation links
+
+- title: Portfolio
+  url: /portfolio/
+  excerpt: "Things I've designed, developed, coded, and whatever"
+  image:
+
+- title: Blog
+  url: http://dy-.hashnode.dev
+  # excerpt: "Some notes on design and development"
+
+- title: CV
+  url: http://read.cv/ardyansatya
