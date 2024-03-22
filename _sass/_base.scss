@@ -9,10 +9,11 @@
    ========================================================================== */
 
 body {
-	background-image: url("../images/bg-contour-3.png");
+	background-image: url("../images/bg-contour-3.webp");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+	background-attachment: fixed;
 	font-family: $base-font;
 	color: $text-color;
 	@include font-size(16);
