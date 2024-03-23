@@ -2,7 +2,7 @@
 
 title: "Ardyan Satya"
 description: "Ardyan Satya's Personal Site."
-logo: # 120x120 px default image used for Twitter summary card
+logo: logo.webp # 120x120 px default image used for Twitter summary card
 teaser: # 400x250 px default teaser image used in image archive grid
 locale: en
 url:
@@ -27,12 +27,12 @@ plugins:
 owner:
   name: "Ardyan Satya"
   email: "ardyan.satya@gmail.com"
-  twitter:
+  twitter: dy_hypen
   google:
     ad-client:
     ad-slot:
   bio: "Generalist with endless learning."
-  avatar: bio-photo.jpg # 160x160 px image for author byline
+  avatar: bio-photo.webp # 160x160 px image for author byline
   disqus-shortname:
 
 include:

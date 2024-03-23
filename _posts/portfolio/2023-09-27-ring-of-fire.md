@@ -3,11 +3,11 @@ layout: media
 title: Ring of Fire
 modified:
 categories: portfolio
-excerpt: Situs wiki yang memberikan informasi data gunung berapi di cincin api Indonesia.
+excerpt: Situs wiki yang menampilkan profil gunung berapi di cincin api Indonesia. Dibangun menggunakan HTML, CSS, dan JavaScript.
 tags: []
 image:
-  feature: ring-of-fire.png
-  teaser: ring-of-fire.png
+  feature: ring-of-fire.webp
+  teaser: ring-of-fire.webp
   thumb:
 ads: false
 ---
