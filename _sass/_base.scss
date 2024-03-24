@@ -5,12 +5,76 @@
 @use 'sass:math';
 
 /*
+   Color Dark/Light Mode
+   ========================================================================== */
+
+html, html[data-theme="light"] {
+	body {
+		background-color: $main-background-color;
+		color: $text-color;
+	}
+
+	a {
+		color: $link-color;
+		&:hover {
+			color: darken($link-color,20);
+		}
+	}
+}
+
+html[data-theme="dark"] {
+	body {
+		background-color: $main-background-color-dr;
+		color: $text-color-dr;
+	}
+
+	a {
+		color: $link-color-dr;
+		&:hover {
+			color: lighten($black,60);
+		}
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	html, html[data-theme="dark"] {
+		body {
+			background-color: $main-background-color-dr;
+			color: $text-color-dr;
+		}
+
+		a {
+			color: $link-color-dr;
+			&:hover {
+				color: lighten($black,60);
+			}
+		}
+	}
+
+	html[data-theme="light"] {
+		body {
+			background-color: $main-background-color;
+			color: $text-color;
+		}
+
+		a {
+			color: $link-color;
+			&:hover {
+				color: darken($link-color,20);
+			}
+		}
+	}	
+}
+
+
+/*
    Typography
    ========================================================================== */
 
 body {
 	background-image: url("../images/bg-contour-3.webp");
-	background-size: cover;
+	background-color: $main-background-color;
+	background-size:cover;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
