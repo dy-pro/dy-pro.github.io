@@ -6,6 +6,48 @@
 
    @use 'sass:math';
 
+html, html[data-theme="light"] {
+  .sliding-menu-content {
+    .menu-item {
+      a:hover {
+        color: $white;
+      }
+    }
+  }
+
+  html[data-theme="dark"] {
+    .sliding-menu-content {
+      .menu-item {
+        a:hover {
+          color: lighten($black,60);
+        }
+      }
+    }
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  html, html[data-theme="dark"] {
+    .sliding-menu-content {
+      .menu-item {
+        a:hover {
+          color: lighten($black,60);
+        }
+      }
+    }
+  }
+
+  html[data-theme="light"] {
+    .sliding-menu-content {
+      .menu-item {
+        a:hover {
+          color: $white;
+        }
+      }
+    }
+  }
+}
+
 /* Slider */
 
 .slide {

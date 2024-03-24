@@ -31,6 +31,18 @@ html, html[data-theme="light"] {
 			}
 		}
 	}
+
+	.bottom-menu {
+		a {
+			color: lighten($black,60);
+		}
+	}
+
+	.social-links a {
+		&:hover {
+			color: $white;
+		}
+	}
 }
 
 html[data-theme="dark"] {
@@ -53,6 +65,18 @@ html[data-theme="dark"] {
 			a {
 				color: $white;
 			}
+		}
+	}
+
+	.bottom-menu {
+		a {
+			color: lighten($black,60);
+		}
+	}
+
+	.social-links a {
+		&:hover {
+			color: $white;
 		}
 	}
 }
@@ -80,6 +104,18 @@ html[data-theme="dark"] {
 				}
 			}
 		}
+
+		.bottom-menu {
+			a {
+				color: lighten($black,60);
+			}
+		}
+
+		.social-links a {
+			&:hover {
+				color: $white;
+			}
+		}
 	}
 
 	html[data-theme="light"] {
@@ -102,6 +138,18 @@ html[data-theme="dark"] {
 				a {
 					color: $black;
 				}
+			}
+		}
+
+		.bottom-menu {
+			a {
+				color: lighten($black,60);
+			}
+		}
+
+		.social-links a {
+			&:hover {
+				color: $white;
 			}
 		}
 	}
