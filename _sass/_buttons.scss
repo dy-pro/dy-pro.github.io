@@ -154,3 +154,21 @@
     }
 	}
 }
+
+/*
+   Dark mode buttons
+   ========================================================================== */
+
+.btn-night-mode {
+	background: url("../images/light-mode.png");
+	width: $button-size + 2px;
+	height: $button-size + 2px;
+	border: 0px;
+}
+
+.btn-light-mode {
+	background: url("../images/night-mode.png");
+	width: $button-size + 2px;
+	height: $button-size + 2px;
+	border: 0px;
+}

@@ -28,7 +28,7 @@ Sedangkan dalam menangani data, aplikasi Rak Bukumu memanfaatkan web storage dal
 
 ## Desain Antar Muka
 
-Antar muka Rak Bukumu didesain dengan gaya [_glassmorphisme_](https://www.interaction-design.org/literature/topics/glassmorphism). Sehingga terlihat modern dan futuristik. Namun tetap memperhatikan tantangan visual pada gaya ini, dengan menerapkan tingkat kontras yang sesuai. Sehingga pengguna tetap dapat melihat setiap elemen visualnya dengan baik.
+Antar muka Rak Bukumu didesain dengan gaya [_glassmorphism_](https://www.interaction-design.org/literature/topics/glassmorphism). Sehingga terlihat modern dan futuristik. Namun tetap memperhatikan tantangan visual pada gaya ini, dengan menerapkan tingkat kontras yang sesuai. Sehingga pengguna tetap dapat melihat setiap elemen visualnya dengan baik.
 
 Rak Bukumu dibuat sebagai Capstone Project dari hasil pembelajaran saya selama mengikuti beasiswa [**Dicoding x IDCamp Indosat Ooredoo Hutchison 2023**](http://idcamp.ioh.co.id/) pada jalur [Front End Web Developer](https://www.dicoding.com/learningpaths/22), dan berhasil meraih rating 4/5.
 

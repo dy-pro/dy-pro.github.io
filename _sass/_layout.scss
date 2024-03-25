@@ -2,7 +2,159 @@
    Page layout
    ========================================================================== */
 
-   @use 'sass:math';
+@use 'sass:math';
+
+
+/*
+   Color Dark/Light Mode
+   ========================================================================== */
+
+html, html[data-theme="light"] {
+	.site-title {
+		color: $black
+	}
+
+	.menu {
+		li {
+			a {
+				&:after {
+					background: $black;
+				}
+			}
+		}
+	}
+
+	.top-menu {
+		li {
+			a {
+				color: $black;
+			}
+		}
+	}
+
+	.bottom-menu {
+		a {
+			color: lighten($black,60);
+		}
+	}
+
+	.social-links a {
+		&:hover {
+			color: $white;
+		}
+	}
+}
+
+html[data-theme="dark"] {
+	.site-title {
+		color: $white
+	}
+
+	.menu {
+		li {
+			a {
+				&:after {
+					background: $white;
+				}
+			}
+		}
+	}
+
+	.top-menu {
+		li {
+			a {
+				color: $white;
+			}
+		}
+	}
+
+	.bottom-menu {
+		a {
+			color: lighten($black,60);
+		}
+	}
+
+	.social-links a {
+		&:hover {
+			color: $white;
+		}
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	html, html[data-theme="dark"] {
+		.site-title {
+			color: $white
+		}
+
+		.menu {
+			li {
+				a {
+					&:after {
+						background: $white;
+					}
+				}
+			}
+		}
+
+		.top-menu {
+			li {
+				a {
+					color: $white;
+				}
+			}
+		}
+
+		.bottom-menu {
+			a {
+				color: lighten($black,60);
+			}
+		}
+
+		.social-links a {
+			&:hover {
+				color: $white;
+			}
+		}
+	}
+
+	html[data-theme="light"] {
+		.site-title {
+			color: $black
+		}
+
+		.menu {
+			li {
+				a {
+					&:after {
+						background: $black;
+					}
+				}
+			}
+		}
+
+		.top-menu {
+			li {
+				a {
+					color: $black;
+				}
+			}
+		}
+
+		.bottom-menu {
+			a {
+				color: lighten($black,60);
+			}
+		}
+
+		.social-links a {
+			&:hover {
+				color: $white;
+			}
+		}
+	}
+}
+
 
 /*
    Masthead
@@ -20,6 +172,7 @@
 		@include outer-container;
 	}
 }
+
 .site-title {
 	@include row;
 	@include media($large) {
@@ -36,6 +189,7 @@
 	line-height: .5 * $masthead-height; // half the height to center vertically
 	text-transform: uppercase;
 }
+
 .mail-menu {
 	position: relative;
 	@include media($large) {
@@ -45,8 +199,6 @@
 	line-height: .5 * $masthead-height; // half the height to center vertically
 	// height: $masthead-height;
 	font-family: $alt-font;
-	// @include font-size(14,no);
-	// text-align: left;
 	text-decoration: none;
 }
 
@@ -176,7 +328,7 @@
 
 .header-home > .description {
 	font-size: 18px;
-	color:  #71716f;
+	color: lighten($black,60);
 	font-family: $base-font;
 	margin: 3px;
 }
