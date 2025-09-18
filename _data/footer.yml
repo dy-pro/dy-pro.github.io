@@ -1,7 +1,10 @@
 # Footer navigation links
 
-- title: Github
-  url: https://github.com/dy-pro
+- title: Medium
+  url: https://medium.com/@ardyansatya
 
-- title: Linkedin
-  url: https://linkedin.com/in/ardyansatya
+- title: Hashnode
+  url: https://dy-.hashnode.dev/
+
+- title: Dev.to
+  url: https://dev.to/dy-
